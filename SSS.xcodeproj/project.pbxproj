@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		848D3F7819086D8B0034B382 /* PhotosPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D3F7619086D8B0034B382 /* PhotosPicker.m */; };
+		848D3F7919086D8B0034B382 /* PhotosPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848D3F7719086D8B0034B382 /* PhotosPicker.xib */; };
+		848D3F7D19086E450034B382 /* btn_large.png in Resources */ = {isa = PBXBuildFile; fileRef = 848D3F7B19086E450034B382 /* btn_large.png */; };
+		848D3F7E19086E450034B382 /* btn_large@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848D3F7C19086E450034B382 /* btn_large@2x.png */; };
+		848D3F83190880150034B382 /* PhotoPickerImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D3F81190880150034B382 /* PhotoPickerImageCell.m */; };
+		848D3F84190880150034B382 /* PhotoPickerImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848D3F82190880150034B382 /* PhotoPickerImageCell.xib */; };
+		848D3F87190882080034B382 /* CacheDataDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D3F86190882080034B382 /* CacheDataDownloader.m */; };
+		848D3F8A190883960034B382 /* UIImageViewExtended.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D3F89190883960034B382 /* UIImageViewExtended.m */; };
+		848F61591909AD4D00A0C0AA /* GenerateCollageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F61571909AD4D00A0C0AA /* GenerateCollageController.m */; };
+		848F615A1909AD4D00A0C0AA /* GenerateCollageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848F61581909AD4D00A0C0AA /* GenerateCollageController.xib */; };
+		848F615D1909B2C600A0C0AA /* CollageLayoutsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F615C1909B2C600A0C0AA /* CollageLayoutsHelper.m */; };
+		84909BBF1907253C0090D23B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84909BBE1907253C0090D23B /* Foundation.framework */; };
+		84909BC11907253C0090D23B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84909BC01907253C0090D23B /* CoreGraphics.framework */; };
+		84909BC31907253C0090D23B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84909BC21907253C0090D23B /* UIKit.framework */; };
+		84909BC91907253C0090D23B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84909BC71907253C0090D23B /* InfoPlist.strings */; };
+		84909BCB1907253C0090D23B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84909BCA1907253C0090D23B /* main.m */; };
+		84909BCF1907253D0090D23B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84909BCE1907253D0090D23B /* AppDelegate.m */; };
+		84909BD11907253D0090D23B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84909BD01907253D0090D23B /* Images.xcassets */; };
+		84909BF1190725EC0090D23B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84909BF0190725EC0090D23B /* LoginViewController.m */; };
+		84909BF3190726020090D23B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84909BF2190726020090D23B /* LoginViewController.xib */; };
+		84F8EFE519083E500043BBB7 /* InstagramAPIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F8EFE419083E500043BBB7 /* InstagramAPIHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		848D3F7519086D8B0034B382 /* PhotosPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosPicker.h; sourceTree = "<group>"; };
+		848D3F7619086D8B0034B382 /* PhotosPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosPicker.m; sourceTree = "<group>"; };
+		848D3F7719086D8B0034B382 /* PhotosPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotosPicker.xib; sourceTree = "<group>"; };
+		848D3F7B19086E450034B382 /* btn_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_large.png; sourceTree = "<group>"; };
+		848D3F7C19086E450034B382 /* btn_large@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_large@2x.png"; sourceTree = "<group>"; };
+		848D3F80190880150034B382 /* PhotoPickerImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerImageCell.h; sourceTree = "<group>"; };
+		848D3F81190880150034B382 /* PhotoPickerImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerImageCell.m; sourceTree = "<group>"; };
+		848D3F82190880150034B382 /* PhotoPickerImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoPickerImageCell.xib; sourceTree = "<group>"; };
+		848D3F85190882080034B382 /* CacheDataDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheDataDownloader.h; sourceTree = "<group>"; };
+		848D3F86190882080034B382 /* CacheDataDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheDataDownloader.m; sourceTree = "<group>"; };
+		848D3F88190883960034B382 /* UIImageViewExtended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageViewExtended.h; sourceTree = "<group>"; };
+		848D3F89190883960034B382 /* UIImageViewExtended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageViewExtended.m; sourceTree = "<group>"; };
+		848F61561909AD4D00A0C0AA /* GenerateCollageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenerateCollageController.h; sourceTree = "<group>"; };
+		848F61571909AD4D00A0C0AA /* GenerateCollageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenerateCollageController.m; sourceTree = "<group>"; };
+		848F61581909AD4D00A0C0AA /* GenerateCollageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GenerateCollageController.xib; sourceTree = "<group>"; };
+		848F615B1909B2C600A0C0AA /* CollageLayoutsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollageLayoutsHelper.h; sourceTree = "<group>"; };
+		848F615C1909B2C600A0C0AA /* CollageLayoutsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollageLayoutsHelper.m; sourceTree = "<group>"; };
+		84909BBB1907253C0090D23B /* SSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84909BBE1907253C0090D23B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84909BC01907253C0090D23B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84909BC21907253C0090D23B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84909BC61907253C0090D23B /* SSS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSS-Info.plist"; sourceTree = "<group>"; };
+		84909BC81907253C0090D23B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84909BCA1907253C0090D23B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84909BCC1907253C0090D23B /* SSS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSS-Prefix.pch"; sourceTree = "<group>"; };
+		84909BCD1907253D0090D23B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84909BCE1907253D0090D23B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84909BD01907253D0090D23B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84909BD71907253D0090D23B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		84909BEF190725EC0090D23B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		84909BF0190725EC0090D23B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		84909BF2190726020090D23B /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		84F8EFE319083E500043BBB7 /* InstagramAPIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramAPIHelper.h; sourceTree = "<group>"; };
+		84F8EFE419083E500043BBB7 /* InstagramAPIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramAPIHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84909BB81907253C0090D23B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84909BC11907253C0090D23B /* CoreGraphics.framework in Frameworks */,
+				84909BC31907253C0090D23B /* UIKit.framework in Frameworks */,
+				84909BBF1907253C0090D23B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848D3F7A19086E400034B382 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				848D3F7B19086E450034B382 /* btn_large.png */,
+				848D3F7C19086E450034B382 /* btn_large@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		848D3F7F19087FF00034B382 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				848D3F80190880150034B382 /* PhotoPickerImageCell.h */,
+				848D3F81190880150034B382 /* PhotoPickerImageCell.m */,
+				848D3F82190880150034B382 /* PhotoPickerImageCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		84909BB21907253C0090D23B = {
+			isa = PBXGroup;
+			children = (
+				84909BC41907253C0090D23B /* SSS */,
+				84909BBD1907253C0090D23B /* Frameworks */,
+				84909BBC1907253C0090D23B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84909BBC1907253C0090D23B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84909BBB1907253C0090D23B /* SSS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84909BBD1907253C0090D23B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84909BBE1907253C0090D23B /* Foundation.framework */,
+				84909BC01907253C0090D23B /* CoreGraphics.framework */,
+				84909BC21907253C0090D23B /* UIKit.framework */,
+				84909BD71907253D0090D23B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84909BC41907253C0090D23B /* SSS */ = {
+			isa = PBXGroup;
+			children = (
+				848D3F7A19086E400034B382 /* Resources */,
+				84F8EFE219083E290043BBB7 /* Helpers */,
+				84909BEE190725AF0090D23B /* UI */,
+				84909BCD1907253D0090D23B /* AppDelegate.h */,
+				84909BCE1907253D0090D23B /* AppDelegate.m */,
+				84909BD01907253D0090D23B /* Images.xcassets */,
+				84909BC51907253C0090D23B /* Supporting Files */,
+			);
+			path = SSS;
+			sourceTree = "<group>";
+		};
+		84909BC51907253C0090D23B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84909BC61907253C0090D23B /* SSS-Info.plist */,
+				84909BC71907253C0090D23B /* InfoPlist.strings */,
+				84909BCA1907253C0090D23B /* main.m */,
+				84909BCC1907253C0090D23B /* SSS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84909BEE190725AF0090D23B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				848D3F88190883960034B382 /* UIImageViewExtended.h */,
+				848D3F89190883960034B382 /* UIImageViewExtended.m */,
+				848D3F7F19087FF00034B382 /* Cells */,
+				84909BEF190725EC0090D23B /* LoginViewController.h */,
+				84909BF0190725EC0090D23B /* LoginViewController.m */,
+				84909BF2190726020090D23B /* LoginViewController.xib */,
+				848D3F7519086D8B0034B382 /* PhotosPicker.h */,
+				848D3F7619086D8B0034B382 /* PhotosPicker.m */,
+				848D3F7719086D8B0034B382 /* PhotosPicker.xib */,
+				848F61561909AD4D00A0C0AA /* GenerateCollageController.h */,
+				848F61571909AD4D00A0C0AA /* GenerateCollageController.m */,
+				848F61581909AD4D00A0C0AA /* GenerateCollageController.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		84F8EFE219083E290043BBB7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				848D3F85190882080034B382 /* CacheDataDownloader.h */,
+				848D3F86190882080034B382 /* CacheDataDownloader.m */,
+				84F8EFE319083E500043BBB7 /* InstagramAPIHelper.h */,
+				84F8EFE419083E500043BBB7 /* InstagramAPIHelper.m */,
+				848F615B1909B2C600A0C0AA /* CollageLayoutsHelper.h */,
+				848F615C1909B2C600A0C0AA /* CollageLayoutsHelper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84909BBA1907253C0090D23B /* InstaCollage(TestWork) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84909BE71907253D0090D23B /* Build configuration list for PBXNativeTarget "InstaCollage(TestWork)" */;
+			buildPhases = (
+				84909BB71907253C0090D23B /* Sources */,
+				84909BB81907253C0090D23B /* Frameworks */,
+				84909BB91907253C0090D23B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "InstaCollage(TestWork)";
+			productName = SSS;
+			productReference = 84909BBB1907253C0090D23B /* SSS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84909BB31907253C0090D23B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = DimasSup;
+			};
+			buildConfigurationList = 84909BB61907253C0090D23B /* Build configuration list for PBXProject "SSS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84909BB21907253C0090D23B;
+			productRefGroup = 84909BBC1907253C0090D23B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84909BBA1907253C0090D23B /* InstaCollage(TestWork) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84909BB91907253C0090D23B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848D3F7919086D8B0034B382 /* PhotosPicker.xib in Resources */,
+				848D3F7E19086E450034B382 /* btn_large@2x.png in Resources */,
+				84909BC91907253C0090D23B /* InfoPlist.strings in Resources */,
+				848D3F7D19086E450034B382 /* btn_large.png in Resources */,
+				848F615A1909AD4D00A0C0AA /* GenerateCollageController.xib in Resources */,
+				84909BD11907253D0090D23B /* Images.xcassets in Resources */,
+				84909BF3190726020090D23B /* LoginViewController.xib in Resources */,
+				848D3F84190880150034B382 /* PhotoPickerImageCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84909BB71907253C0090D23B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848F61591909AD4D00A0C0AA /* GenerateCollageController.m in Sources */,
+				848D3F87190882080034B382 /* CacheDataDownloader.m in Sources */,
+				848D3F83190880150034B382 /* PhotoPickerImageCell.m in Sources */,
+				848D3F7819086D8B0034B382 /* PhotosPicker.m in Sources */,
+				84909BCF1907253D0090D23B /* AppDelegate.m in Sources */,
+				848F615D1909B2C600A0C0AA /* CollageLayoutsHelper.m in Sources */,
+				84909BCB1907253C0090D23B /* main.m in Sources */,
+				848D3F8A190883960034B382 /* UIImageViewExtended.m in Sources */,
+				84909BF1190725EC0090D23B /* LoginViewController.m in Sources */,
+				84F8EFE519083E500043BBB7 /* InstagramAPIHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84909BC71907253C0090D23B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84909BC81907253C0090D23B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84909BE51907253D0090D23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84909BE61907253D0090D23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84909BE81907253D0090D23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSS/SSS-Prefix.pch";
+				INFOPLIST_FILE = "SSS/SSS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84909BE91907253D0090D23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSS/SSS-Prefix.pch";
+				INFOPLIST_FILE = "SSS/SSS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84909BB61907253C0090D23B /* Build configuration list for PBXProject "SSS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84909BE51907253D0090D23B /* Debug */,
+				84909BE61907253D0090D23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84909BE71907253D0090D23B /* Build configuration list for PBXNativeTarget "InstaCollage(TestWork)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84909BE81907253D0090D23B /* Debug */,
+				84909BE91907253D0090D23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84909BB31907253C0090D23B /* Project object */;
+}
