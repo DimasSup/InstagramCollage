@@ -45,10 +45,15 @@
 	[super layoutSubviews];
 
 	_imageView.frame = CGRectMake(self.bounds.size.width/2-self.bounds.size.height/2, 0, self.bounds.size.height, self.bounds.size.height);
-	_imageView.layer.borderWidth=4;
+
+
+}
+-(void)willMoveToSuperview:(UIView*)newSuperview
+{
+	[super willMoveToSuperview:newSuperView];
+	_imageView.layer.borderWidth=4;	
 	self.backgroundColor = self.contentView.backgroundColor = [UIColor clearColor];
 	_imageView.layer.borderColor = [UIColor clearColor].CGColor;
-
 }
 - (void)awakeFromNib
 {
